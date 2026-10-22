@@ -315,6 +315,29 @@ copyButton.addEventListener('click', async () => {
   }
 });
 
+/* Fact counters */
+const factNumbers = document.querySelectorAll('[data-count]');
+const countUp = el => {
+  const target = Number(el.dataset.count);
+  const start = performance.now();
+  const tick = now => {
+    const t = Math.min((now - start) / 1400, 1);
+    el.textContent = Math.round(target * (1 - Math.pow(1 - t, 3)));
+    if (t < 1) requestAnimationFrame(tick);
+  };
+  requestAnimationFrame(tick);
+};
+if ('IntersectionObserver' in window && !reducedMotion.matches) {
+  const countObserver = new IntersectionObserver(entries => {
+    for (const entry of entries) {
+      if (!entry.isIntersecting) continue;
+      countUp(entry.target);
+      countObserver.unobserve(entry.target);
+    }
+  }, { threshold: 0.6 });
+  factNumbers.forEach(el => { el.textContent = '0'; countObserver.observe(el); });
+}
+
 /* Reveal on scroll */
 const revealTargets = document.querySelectorAll('.reveal');
 if ('IntersectionObserver' in window && !reducedMotion.matches) {

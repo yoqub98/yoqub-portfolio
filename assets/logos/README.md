@@ -6,10 +6,12 @@ These marks identify the organizations and tools described in the portfolio.
 - `uzinfocom.svg`: official UZINFOCOM site, https://uzinfocom.uz/_next/static/media/uzinfocom-logo.8612a388.svg.
 - `uzinfocom-mark.svg`: the same logo with the small tagline removed, for small sizes.
 - `sejong-color.png`: official full-color Sejong University logo, https://www.sejong.ac.kr/_res/sejong/_share/img/sj-common/img-logo02-active@2x.png.
-- Node.js, Figma, HTML5, JavaScript, Next.js, Vue.js, Supabase, React, Python, PHP, TypeScript, Tailwind CSS, PostgreSQL, Git, GitHub, Docker, Vercel: [Devicon](https://github.com/devicons/devicon), MIT. Individual brand marks remain the property of their owners.
+- Node.js, Figma, HTML5, JavaScript, Next.js, Vue.js, Supabase, React, Python, PHP, TypeScript, Tailwind CSS, PostgreSQL, Git, GitHub, Vercel, Cloudflare, Postman, Google Cloud: [Devicon](https://github.com/devicons/devicon), MIT. Individual brand marks remain the property of their owners.
 - Claude, OpenAI, Gemini: [LobeHub Icons](https://github.com/lobehub/lobe-icons), MIT. Individual brand marks remain the property of their owners.
 - OWASP, Burp Suite: [Simple Icons](https://github.com/simple-icons/simple-icons), CC0, filled with brand colors. Individual brand marks remain the property of their owners.
 - BUXORO Hotel (`buxoro-hotel.svg`): mark and wordmark from the project site, https://buxoro-brand.vercel.app/hotel.
+- Google Analytics, Resend: [SVGL](https://github.com/pheralb/svgl), MIT. Individual brand marks remain the property of their owners.
+- Yandex Metrica: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yandex_Metrica_icon.svg), public domain.
 - Firestore: [SVG Repo](https://www.svgrepo.com/svg/373598/firestore), CC0.
 - `sql.svg`: custom generic database symbol.
 - HELIX GROUP: custom typographic wordmark and inline vector symbol in `index.html`.
